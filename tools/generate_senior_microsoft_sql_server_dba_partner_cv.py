@@ -52,7 +52,7 @@ def add_skills_table(doc):
         ),
         (
             "Performance Engineering",
-            "Advanced T-SQL, complex queries, stored procedures, indexing strategies, query optimization, performance tuning, troubleshooting",
+            "Advanced T-SQL, complex queries, stored procedures, indexing strategies, query optimization, execution analysis, Extended Events, Query Store",
         ),
         (
             "Data Architecture and BI",
@@ -180,9 +180,10 @@ def build_document():
         [
             "Designed relational databases, schemas, tables, stored procedures, and supporting database objects for operational applications and reporting.",
             "Improved application performance through custom database logic and maintainable backend structures.",
+            "Supported SQL Server Always On configurations and used Extended Events to investigate workload behavior and performance issues.",
             "Delivered end-to-end database and data integration solutions aligned with business and infrastructure requirements.",
         ],
-        "SQL Server, SSIS, SSRS, PostgreSQL, Power BI, Excel",
+        "SQL Server, Always On, Extended Events, SSIS, SSRS, PostgreSQL, Power BI, Excel",
     )
     add_role(
         doc,
@@ -193,9 +194,10 @@ def build_document():
         [
             "Developed and maintained ETL pipelines loading multiple source systems into an enterprise data warehouse.",
             "Defined and optimized table, index, and view structures for reliable, high-performance analytical workloads.",
+            "Supported SQL Server Always On environments and used Extended Events and Query Store to analyze workloads and troubleshoot query performance.",
             "Supported large datasets and reporting needs by improving structures used for analysis and business decision-making.",
         ],
-        "SQL Server, SSIS, SSAS, SSRS, Power BI, Azure",
+        "SQL Server, Always On, Extended Events, Query Store, SSIS, SSAS, SSRS, Power BI, Azure",
     )
 
     add_heading(doc, "ADDITIONAL SQL SERVER EXPERIENCE")
