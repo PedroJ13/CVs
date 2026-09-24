@@ -251,7 +251,7 @@ role(
 role(
     doc,
     "DBA / SQL Developer",
-    "SMASH Costa Rica",
+    "Health Catalyst",
     "May 2021 - September 2024",
     "San Jose, Costa Rica",
     [
