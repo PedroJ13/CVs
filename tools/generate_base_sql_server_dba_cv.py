@@ -159,7 +159,7 @@ def add_strengths_table(doc):
     evidence = [
         "Standardized access controls and post-restore permission procedures across production and lower environments",
         "Reduced query execution times by up to 50% and led controlled recovery of hundreds of production records",
-        "Reduced manual processing by up to 40% and Snowflake warehouse processing time by 20%",
+        "Reduced manual processing by up to 40% and improved data validation accuracy by 30%",
     ]
     for i, value in enumerate(headers):
         cell = table.cell(0, i)
@@ -235,8 +235,8 @@ role(
     doc,
     "SQL Server DBA / Database Engineer",
     "MWR Life",
-    "Present",
-    "",
+    "September 2024 - Present",
+    "Remote / Costa Rica",
     [
         "Administer and support SQL Server databases hosted on AWS RDS across Production, Development, and Staging environments, including access, connectivity, backup and restore, maintenance, and production incident support.",
         "Designed a role-based access model using least-privilege principles, standardized usr_ and prv_ account prefixes, JIT privileged access, permission audits, and controlled post-restore access procedures for lower environments.",
@@ -246,21 +246,6 @@ role(
         "Develop SQL monitoring dashboards and operational documentation for SQL Agent jobs, alerts, execution history, integrations, data-quality exceptions, restore procedures, JIT access, and incident response.",
     ],
     "SQL Server, AWS RDS, T-SQL, SSMS, DBeaver, SQL Agent, Database Mail, PowerShell, JSON/OpenJSON, Git, RBAC, JIT access, database security, backup/restore, monitoring, performance tuning",
-)
-
-role(
-    doc,
-    "Snowflake Developer / Data Engineer",
-    "ServiceTitan",
-    "September 2024 - Present",
-    "Remote / Costa Rica",
-    [
-        "Migrate C# reporting logic into Snowflake SQL and maintain dbt models across silver and gold data layers.",
-        "Optimize Snowflake SQL and dbt workloads, reducing warehouse processing time by 20% during an initial improvement phase.",
-        "Created a Kimball-based warehouse modeling proof of concept and support MetricFlow semantic models and Snowflake Cortex workflows.",
-    ],
-    "Snowflake, Snowflake SQL, dbt, MetricFlow, Kimball, Snowflake Cortex, Cursor, Git",
-    page_break_before=True,
 )
 
 role(
@@ -275,6 +260,7 @@ role(
         "Automated validation and anomaly-detection routines, improving data validation accuracy by 30% and supporting reliable reporting operations.",
     ],
     "SQL Server, T-SQL, SSIS, Snowflake, Python, PowerShell, Power BI, Pandas, Excel",
+    page_break_before=True,
 )
 
 role(
