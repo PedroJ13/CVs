@@ -135,6 +135,7 @@ write(
 
 section_heading(doc, "Competencias Técnicas")
 skill_line(doc, "Administración SQL Server", "operación de ambientes productivos, acceso y seguridad, backup/restore, mantenimiento, SQL Agent, monitoreo, resolución de incidentes y soporte de disponibilidad")
+skill_line(doc, "Alta disponibilidad", "SQL Server Always On Availability Groups, Failover Cluster Instances (FCI), Windows Server Failover Clustering (WSFC), monitoreo, validación de sincronización, failover y troubleshooting")
 skill_line(doc, "Migraciones", "planificación, identificación de riesgos, validación de datos, coordinación de despliegues, continuidad operativa, recuperación y verificación posterior")
 skill_line(doc, "T-SQL y rendimiento", "stored procedures, funciones, consultas complejas, índices, análisis de ejecución, procesos de larga duración, bloqueos y optimización set-based")
 skill_line(doc, "Automatización e integración", "PowerShell, SSIS, ETL/ELT, Python, Git, scripts de despliegue y rollback, herramientas de diagnóstico y documentación operativa")
@@ -149,12 +150,13 @@ role(
     "Remoto / Costa Rica",
     [
         "Administro y doy soporte a bases SQL Server alojadas en AWS RDS en ambientes de Producción, Desarrollo y Staging, incluyendo accesos, conectividad, backup/restore, mantenimiento y atención de incidentes.",
+        "Doy soporte a configuraciones SQL Server Always On Availability Groups y Windows Server Failover Clustering, incluyendo monitoreo, validación de sincronización, failover y troubleshooting de disponibilidad.",
         "Diseñé un modelo de acceso basado en roles, mínimo privilegio y acceso privilegiado JIT; audité logins, usuarios, permisos y procedimientos posteriores a restauraciones.",
         "Desarrollo stored procedures, funciones, scripts de despliegue y rollback, procedimientos de diagnóstico y utilidades de soporte productivo.",
         "Lideré una recuperación controlada de datos e integración InEvent, validando respaldos, recuperando cientos de registros, corrigiendo procedimientos y verificando el despliegue.",
         "Analizo consultas de larga duración, índices, patrones de ejecución y procesos basados en cursores para implementar alternativas set-based y mejorar el rendimiento.",
     ],
-    "SQL Server, AWS RDS, T-SQL, SSMS, DBeaver, SQL Agent, Database Mail, PowerShell, JSON/OpenJSON, Git, RBAC, JIT, backup/restore, monitoreo",
+    "SQL Server, AWS RDS, Always On Availability Groups, WSFC, T-SQL, SSMS, DBeaver, SQL Agent, Database Mail, PowerShell, JSON/OpenJSON, Git, RBAC, JIT, backup/restore, monitoreo",
 )
 
 role(
@@ -207,9 +209,10 @@ role(
     "Ciudad de Panamá, Panamá",
     [
         "Diseñé bases relacionales, esquemas, tablas, stored procedures y objetos para aplicaciones operativas y cargas de reporting.",
+        "Implementé y soporté alta disponibilidad con SQL Server Failover Cluster Instances y Windows Server Failover Clustering, atendiendo validaciones, failover y resolución de incidentes.",
         "Entregué soluciones de bases de datos, integración y BI alineadas con requisitos de rendimiento e infraestructura.",
     ],
-    "SQL Server, SSIS, SSRS, PostgreSQL, Power BI, Excel",
+    "SQL Server, Failover Cluster Instances, WSFC, SSIS, SSRS, PostgreSQL, Power BI, Excel",
 )
 
 role(
